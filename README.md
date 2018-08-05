@@ -16,5 +16,4 @@ $andhor_data = json_decode($anchor);
 /* to get anchor id */
 $anchor_id = $anchor->data->id;
 print($anchor_id);
-
 /* Save your anchor id to your database etc. */
